@@ -13,6 +13,12 @@ return s;
 
 }
 
+int subtraction (int a, int b){
+
+int f= b-a;
+
+return f;
+}
 int main () {
 	
 	int  a,b;
@@ -24,7 +30,8 @@ int z=zarb(a,b);
 
 printf("\nthe multiplication of a and b is %d",z);
 	
-	
+	int f =subtraction(a,b);
+printf("\nthe subtraction of a and b is %d",f);
 	
 	
 	
