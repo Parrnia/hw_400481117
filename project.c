@@ -51,10 +51,11 @@ printf("%d ", i);
 
 }
 
-
+}
 int main () {
 	
 	int  a,b;
+	printf("please inter two int number");
 scanf("%d%d", &a , &b);
 int s=summation(a,b);
 
