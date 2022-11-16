@@ -42,11 +42,14 @@ int even(int a){
 
 }
 
+void number (int a , int b){
+
+for (int i=a+1 ; i<b  ; i++){
+
+printf("%d ", i);
 
 
-
-
-
+}
 
 
 int main () {
@@ -93,7 +96,9 @@ printf("\n b is odd number ");
 
 }
 	
-	
+printf(" \nthe numbers between a and b are ");
+
+number(a,b);	
 	
 	
 	
