@@ -79,7 +79,19 @@ printf("\n a is odd number ");
 
 
 }
-	
+	if (even(b)==1){
+
+printf("\n b is even number ");
+
+
+}
+
+else {
+
+printf("\n b is odd number ");
+
+
+}
 	
 	
 	
