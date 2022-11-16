@@ -61,7 +61,7 @@ int s=summation(a,b);
 printf("the summation of a and b is %d",s);
 int z=zarb(a,b);
 
-printf("\nthe multiplication of a and b is %d",z);
+printf("\n The multiplication of a and b is %d",z);
 	
 	int f =subtraction(a,b);
 printf("\nthe subtraction of a and b is %d",f);
@@ -101,5 +101,5 @@ printf(" \nthe numbers between a and b are ");
 number(a,b);	
 	
 	
-return 0;
+return 0;;	 
 }
