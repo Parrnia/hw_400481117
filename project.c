@@ -66,7 +66,19 @@ printf("\nthe subtraction of a and b is %d",f);
 	int d=division(a,b);
 printf("\nthe division of a and b is %d",d);
 	
-	
+	if (even(a)==1){
+
+printf("\n a is even number ");
+
+
+}
+
+else {
+
+printf("\n a is odd number ");
+
+
+}
 	
 	
 	
