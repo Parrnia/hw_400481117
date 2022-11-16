@@ -101,5 +101,5 @@ printf(" \nthe numbers between a and b are ");
 number(a,b);	
 	
 	
-	
+return 0;
 }
