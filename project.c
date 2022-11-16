@@ -63,9 +63,16 @@ printf("the summation of a and b is %d",s);
 int z=zarb(a,b);
 
 printf("\n The multiplication of a and b is %d",z);
-	
-	int f =subtraction(a,b);
+	if (b>a) {
+		int f =subtraction(a,b);
 printf("\nthe subtraction of a and b is %d",f);
+		
+	}
+	else {
+		int f =subtraction(b,a);
+printf("\nthe subtraction of a and b is %d",f);
+		
+	}
 	
 	int d=division(a,b);
 printf("\nthe division of a and b is %d",d);
