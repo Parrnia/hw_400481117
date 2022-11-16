@@ -19,6 +19,17 @@ int f= b-a;
 
 return f;
 }
+
+
+int division (int a,int b){
+ 
+ int d=  b/a;
+
+
+return d;
+
+}
+
 int main () {
 	
 	int  a,b;
@@ -33,7 +44,8 @@ printf("\nthe multiplication of a and b is %d",z);
 	int f =subtraction(a,b);
 printf("\nthe subtraction of a and b is %d",f);
 	
-	
+	int d=division(a,b);
+printf("\nthe division of a and b is %d",d);
 	
 	
 	
